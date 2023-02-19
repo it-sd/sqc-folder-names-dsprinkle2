@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint \"**/*.js\""
-  },
-  "repository": {
+    "test": "jasmine","coverage": "nyc jasmine"
+  }
+  
+  ,"repository": {
     "type": "git",
     "url": "git+https://github.com/it-sd/sqc-folder-names.git"
   },
@@ -25,4 +25,5 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1"
   }
+  
 }
